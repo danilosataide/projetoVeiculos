@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastrar Veículo</title>
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/createVeiculo.css">
+
+</head>
+
+<body>
+  <div class="top-menu">
+    <a href="/createVeiculo.html">Criar</a>
+    <a href="/readVeiculo.html">Listar</a>
+    <a href="/deleteVeiculo.html">Deletar</a>
+    <a href="/updateVeiculo.html">Update</a>
+  </div>
+
+  <div class="page">
+    <form method="POST" class="formCreate">
+      <h1>Cadastrar veículo</h1>
+      <p>Digite os seus dados de cadastro nos campos abaixo.</p>
+      <label for="marca">Marca</label>
+      <input type="text" placeholder="Digite a marca do veículo" autofocus="true" id="marca" required />
+      <label for="modelo">Modelo</label>
+      <input type="text" placeholder="Digite o modelo do veículo" id="modelo" required />
+      <label for="ano">Ano</label>
+      <input type="number" placeholder="Digite o ano do veículo" id="ano" required />
+      <label for="cor">Cor</label>
+      <input type="text" placeholder="Digite a cor do veículo" id="cor" required />
+      <input type="submit" value="Enviar" class="btn" />
+    </form>
+  </div>
+
+  <script src="js/api.js"></script>
+  <script src="js/createVeiculo.js"></script>
+</body>
+
+</html>

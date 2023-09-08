@@ -1,0 +1,11 @@
+{
+  "veiculos": [
+    {
+      "marca": "Fiat",
+      "modelo": "Cronos",
+      "ano": "2023",
+      "cor": "Prata",
+      "id": 1
+    }
+  ]
+}
